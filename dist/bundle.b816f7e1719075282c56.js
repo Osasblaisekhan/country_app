@@ -1,1 +1,0 @@
-document.getElementById("wel").innerHTML="WELCOME YOO";
