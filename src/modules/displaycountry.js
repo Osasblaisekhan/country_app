@@ -51,12 +51,5 @@ export default class DisplayDAta {
       fetchData();
       searchInput.value = '';
     });
-
-    searchInput.addEventListener('keypress', (e) => {
-      if (e.target.key === 'Enter') {
-        fetchData();
-        searchInput.value = '';
-      }
-    });
   }
 }
